@@ -3,16 +3,16 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26730.15
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dressing.Business", "Pajamas\Dressing.Business.csproj", "{E433D409-4D73-4687-8CC6-552F2DB6DC94}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dressing.Business", "Dressing.Business\Dressing.Business.csproj", "{E433D409-4D73-4687-8CC6-552F2DB6DC94}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dressing.Tests", "PajamasTestProject\Dressing.Tests.csproj", "{9AE44C6F-DB12-4929-922C-7E6B8F799A19}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dressing.Tests", "Dressing.Tests\Dressing.Tests.csproj", "{9AE44C6F-DB12-4929-922C-7E6B8F799A19}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{F2FC4621-5AC2-49CB-97FF-2BB8737821F8}"
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dressing.ConsoleApplication", "ConsoleApp6\Dressing.ConsoleApplication.csproj", "{3871B99D-0C33-403C-AA39-8B5EC545F18F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dressing.ConsoleApplication", "Dressing.ConsoleApplication\Dressing.ConsoleApplication.csproj", "{3871B99D-0C33-403C-AA39-8B5EC545F18F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
