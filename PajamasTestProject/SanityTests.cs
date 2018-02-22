@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pajamas.Enums;
-using Pajamas.TemperatureStrategy;
+﻿using Dressing.Business;
+using Dressing.Business.TemperatureStrategy;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
 namespace PajamasTestProject

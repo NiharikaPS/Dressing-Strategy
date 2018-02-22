@@ -1,7 +1,6 @@
-﻿using Pajamas.Enums;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
-namespace Pajamas.Rules
+namespace Dressing.Business.Rules
 {
     public class RuleParameter
     {

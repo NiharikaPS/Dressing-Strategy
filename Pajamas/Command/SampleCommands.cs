@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Pajamas
+namespace Dressing.Business.Command
 {
     public static class SampleCommands
     {

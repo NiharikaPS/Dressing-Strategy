@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pajamas.Enums;
-using Pajamas.TemperatureStrategy;
+﻿using Dressing.Business;
+using Dressing.Business.TemperatureStrategy;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
 namespace PajamasTestProject
@@ -57,7 +57,7 @@ namespace PajamasTestProject
             List<string> expectedOutput = new List<string> { "Removing PJs", "shorts", "t-shirt", "sandals", "fail" };
             temperatureStrategy.ProcessCommands(inputCommands);
             CollectionAssert.AreEqual(expectedOutput, temperatureStrategy._output as List<string>);
-            TestContext.WriteLine("Success");
+            TestContext.WriteLine(temperatureStrategy._message);
         }
 
 

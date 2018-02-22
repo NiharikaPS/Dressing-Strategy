@@ -1,8 +1,6 @@
-﻿using Pajamas.Enums;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System.Linq;
 
-namespace Pajamas.Rules
+namespace Dressing.Business.Rules
 {
     /// <summary>
     /// Pajamas must be taken off before anything else can be put on

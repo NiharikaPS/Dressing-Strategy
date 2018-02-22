@@ -1,8 +1,4 @@
-﻿using Pajamas.Enums;
-using Pajamas.Rules;
-using System.Collections.Generic;
-
-namespace Pajamas
+﻿namespace Dressing.Business.Rules
 {
     public class NoSocksWhenHot : IRule
     {

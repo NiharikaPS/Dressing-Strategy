@@ -1,11 +1,6 @@
-﻿using Pajamas.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System;
 
-namespace Pajamas.TemperatureStrategy
+namespace Dressing.Business.TemperatureStrategy
 {
     public static class StrategyResolver
     {

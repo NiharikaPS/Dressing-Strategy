@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Pajamas
+﻿namespace Dressing.Business.Command
 {
     public class Command
     {

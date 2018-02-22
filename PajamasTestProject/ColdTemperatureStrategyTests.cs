@@ -1,6 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Pajamas.Enums;
-using Pajamas.TemperatureStrategy;
+﻿using Dressing.Business;
+using Dressing.Business.TemperatureStrategy;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 
 namespace PajamasTestProject
@@ -53,8 +53,8 @@ namespace PajamasTestProject
         [TestMethod]
         public void ShouldHaveFailWhenShoesBeforeSocksOnColdDay()
         {
-            string inputCommands = "8, 1, 3, 4, 2, 5, 6, 7";
-            List<string> expectedOutput = new List<string> { "Removing PJs", "fail" };     
+            string inputCommands = "8, 1, 6, 3, 4, 2, 5, 7";
+            List<string> expectedOutput = new List<string> { "Removing PJs", "fail" };
             temperatureStrategy.ProcessCommands(inputCommands);
             CollectionAssert.AreEqual(expectedOutput, temperatureStrategy._output as List<string>);
             TestContext.WriteLine(temperatureStrategy._message);
@@ -85,8 +85,8 @@ namespace PajamasTestProject
         [TestMethod]
         public void ShouldHaveFailWhenShoesBeforePantsOnColdDay()
         {
-            string inputCommands = "8, 6, 1, 4, 2, 5, 3, 7";
-            List<string> expectedOutput = new List<string> { "Removing PJs", "pants", "fail" };
+            string inputCommands = "8, 4, 3, 2, 1, 6, 5, 7";
+            List<string> expectedOutput = new List<string> { "Removing PJs", "shirt", "socks", "hat", "fail" };
             temperatureStrategy.ProcessCommands(inputCommands);
             CollectionAssert.AreEqual(expectedOutput, temperatureStrategy._output as List<string>);
             TestContext.WriteLine(temperatureStrategy._message);

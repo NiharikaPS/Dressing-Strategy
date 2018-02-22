@@ -1,4 +1,4 @@
-﻿namespace Pajamas.Enums
+﻿namespace Dressing.Business
 {
     public enum TemperatureType
     {

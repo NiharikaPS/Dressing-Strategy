@@ -1,9 +1,8 @@
-﻿using Pajamas.Enums;
-using Pajamas.Rules;
+﻿using Dressing.Business.Rules;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Pajamas.TemperatureStrategy
+namespace Dressing.Business.TemperatureStrategy
 {
     public abstract class TemperatureStrategy
     {

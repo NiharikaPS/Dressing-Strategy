@@ -1,18 +1,23 @@
-﻿using System;
+﻿using Dressing.Business;
+using Dressing.Business.TemperatureStrategy;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApp6
+namespace Dressing.ConsoleApplication
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Pajamas.Pajamas pajamas = new Pajamas.Pajamas(Pajamas.Enums.TemperatureTypes.HOT, "8,6,4,2,1, 7");
-            pajamas.ProcessCommands();
-            Console.WriteLine(pajamas._output);
+            TemperatureType type = TemperatureType.HOT;
+            string inputCommands = "8, 6, 6";
+            //  "Removing PJs", "shorts", "fail" 
+
+            TemperatureStrategy temperatureStrategy = StrategyResolver.GetTemperatureStrategy(type);
+            temperatureStrategy.ProcessCommands(inputCommands);
+            Console.WriteLine(string.Join(",",temperatureStrategy._output));
+            Console.WriteLine(temperatureStrategy._message);
+            Console.ReadKey();
         }
     }
 }

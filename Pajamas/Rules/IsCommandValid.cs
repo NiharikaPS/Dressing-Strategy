@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Dressing.Business.Command;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Pajamas.Enums;
 
-namespace Pajamas.Rules
+namespace Dressing.Business.Rules
 {
     class IsCommandValid : IRule
     {

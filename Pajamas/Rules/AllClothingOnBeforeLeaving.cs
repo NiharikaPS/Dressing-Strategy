@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Pajamas.Enums;
+﻿using System.Linq;
 
-namespace Pajamas.Rules
+namespace Dressing.Business.Rules
 {
     public class AllClothingOnBeforeLeaving : IRule
     {

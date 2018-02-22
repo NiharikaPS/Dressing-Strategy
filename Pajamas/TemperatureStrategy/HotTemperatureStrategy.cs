@@ -1,12 +1,9 @@
-﻿using System;
+﻿using Dressing.Business.Command;
+using Dressing.Business.Rules;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Pajamas.Enums;
-using Pajamas.Rules;
 
-namespace Pajamas.TemperatureStrategy
+namespace Dressing.Business.TemperatureStrategy
 {
     public class HotTemperatureStrategy : TemperatureStrategy
     {

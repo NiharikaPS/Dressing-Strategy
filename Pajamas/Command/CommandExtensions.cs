@@ -1,11 +1,6 @@
-﻿using Pajamas.Enums;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Linq;
 
-namespace Pajamas
+namespace Dressing.Business.Command
 {
     /// <summary>
     /// Extension methods common to all the temperature types.

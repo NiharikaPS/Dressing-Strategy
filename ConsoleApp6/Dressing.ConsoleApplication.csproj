@@ -49,9 +49,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Pajamas\Pajamas.csproj">
+    <ProjectReference Include="..\Pajamas\Dressing.Business.csproj">
       <Project>{e433d409-4d73-4687-8cc6-552f2db6dc94}</Project>
-      <Name>Pajamas</Name>
+      <Name>Dressing.Business</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
