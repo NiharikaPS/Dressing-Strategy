@@ -2,6 +2,9 @@
 
 namespace Dressing.Business.Command
 {
+    /// <summary>
+    /// The contents of this class can be replaced with DB calls
+    /// </summary>
     public static class SampleCommands
     {
         // NULL in response indicates FAIL

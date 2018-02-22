@@ -1,11 +1,16 @@
 ﻿namespace Dressing.Business
 {
+    /// <summary>
+    /// To improve readability, this enum is added. To support new Temperature Type, new value needs to be added in this enum.
+    /// </summary>
     public enum TemperatureType
     {
         HOT = 1,
         COLD = 2
     }
-
+    /// <summary>
+    /// To improve readability, this enum is added. To support new command, new value needs to be added in this enum.
+    /// </summary>
     public enum CommandType
     {
         PUT_FOOT_WEAR = 1,

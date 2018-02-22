@@ -1,8 +1,8 @@
 ﻿namespace Dressing.Business.Rules
 {
-    public class NoSocksWhenHot : IRule
+    public class NoSocks : IRule
     {
-        public string Description => "You cannot put on socks when it is hot";
+        public string Description => "You cannot put on socks";
 
         public bool IsValid(RuleParameter ruleParameter)
         {

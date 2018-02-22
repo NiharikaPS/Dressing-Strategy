@@ -21,8 +21,17 @@ namespace Dressing.Business.TemperatureStrategy
             InitializeRules();
             _clothingCommands = GetClothing();
         }
-
+        /// <summary>
+        /// This method should be implemented by inheriting classes to load the rule engine with applicable rules.
+        /// </summary>
         protected abstract void InitializeRules();
+
+        /// <summary>
+        /// This method should be implemented by inheriting classes to get the 
+        /// response based on the temperature type and command
+        /// </summary>
+        /// <param name="commandId"></param>
+        /// <returns></returns>
         protected abstract string GetResponse(CommandType commandId);
 
         private void Initialize()

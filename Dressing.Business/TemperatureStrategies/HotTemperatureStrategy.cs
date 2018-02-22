@@ -24,8 +24,8 @@ namespace Dressing.Business.TemperatureStrategy
             _ruleEngine.Add(new IsCommandValid());
             _ruleEngine.Add(new OnlyOnePiecePerClothing());
             _ruleEngine.Add(new NoPajamasBeforeAnyOtherClothing());
-            _ruleEngine.Add(new NoJacketWhenHot());
-            _ruleEngine.Add(new NoSocksWhenHot());
+            _ruleEngine.Add(new NoJacket());
+            _ruleEngine.Add(new NoSocks());
             _ruleEngine.Add(new PutShirtBeforeHeadWearOrJacket());
             _ruleEngine.Add(new AllClothingOnBeforeLeaving());
         }

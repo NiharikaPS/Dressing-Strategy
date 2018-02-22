@@ -48,19 +48,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Rules\OnlyOnePiecePerClothing.cs" />
     <Compile Include="Rules\IsCommandValid.cs" />
-    <Compile Include="Rules\NoJacketWhenHot.cs" />
+    <Compile Include="Rules\NoJacket.cs" />
     <Compile Include="Rules\NoPajamasBeforeAnyOtherClothing.cs" />
-    <Compile Include="Rules\NoSocksWhenHot.cs" />
+    <Compile Include="Rules\NoSocks.cs" />
     <Compile Include="Rules\PutPantsBeforeShoes.cs" />
     <Compile Include="Rules\PutShirtBeforeHeadWearOrJacket.cs" />
     <Compile Include="Rules\AllClothingOnBeforeLeaving.cs" />
     <Compile Include="Rules\PutSocksBeforeShoes.cs" />
     <Compile Include="Rules\RuleParameter.cs" />
     <Compile Include="Command\SampleCommands.cs" />
-    <Compile Include="TemperatureStrategy\ColdTemperatureStrategy.cs" />
-    <Compile Include="TemperatureStrategy\HotTemperatureStrategy.cs" />
-    <Compile Include="TemperatureStrategy\StrategyResolver.cs" />
-    <Compile Include="TemperatureStrategy\TemperatureStrategy.cs" />
+    <Compile Include="TemperatureStrategies\ColdTemperatureStrategy.cs" />
+    <Compile Include="TemperatureStrategies\HotTemperatureStrategy.cs" />
+    <Compile Include="TemperatureStrategies\StrategyResolver.cs" />
+    <Compile Include="TemperatureStrategies\TemperatureStrategy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
