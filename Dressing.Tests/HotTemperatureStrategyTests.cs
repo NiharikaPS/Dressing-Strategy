@@ -64,11 +64,11 @@ namespace PajamasTestProject
         [TestMethod]
         public void ShouldHaveProcessedWhenSandalsBeforePantsOnHotDay()
         {
-            string inputCommands = "8, 6, 6";
-            List<string> expectedOutput = new List<string> { "Removing PJs", "shorts", "fail" };
+            string inputCommands = "8, 1, 4, 2, 6, 7";
+            List<string> expectedOutput = new List<string> { "Removing PJs", "sandals", "t-shirt", "sun visor", "shorts", "leaving house" };
             temperatureStrategy.ProcessCommands(inputCommands);
             CollectionAssert.AreEqual(expectedOutput, temperatureStrategy._output as List<string>);
-            TestContext.WriteLine(temperatureStrategy._message);
+            TestContext.WriteLine("Success");
         }
 
 
