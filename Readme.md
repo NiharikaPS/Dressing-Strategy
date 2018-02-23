@@ -6,8 +6,8 @@ Assumptions:
 4. To get clothing commands, all the commands with description starting with "Put on" are considered.
 
 
-Project Structure:
-Dressing.Business:
+## Project Structure:
+## Dressing.Business:
 	1. To add a new temperature type (e.g. MODERATE):
 	i) new class needs to be added in TemperatureStrategies folder by implementing TemperatureStrategy class
 	ii) new enum value to be added to TemperatureType enum
@@ -16,10 +16,10 @@ Dressing.Business:
 	i) apply required modifications to rules inside rules folder
 	ii) Commands enum to be modified
 	3. Any rule can be added or removed easily for a temperature type in the method TemperatureStrategy.InitializeRules
-Dressing.Tests:
+## Dressing.Tests:
 	1. All the tests given in the examples are covered and some additional test cases are added
 
-Dressing.Console:
+## Dressing.Console:
 	1. This project can be used to see the output for a given example in a console
 
 	
