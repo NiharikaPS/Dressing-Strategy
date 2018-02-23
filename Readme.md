@@ -5,7 +5,6 @@
 	:Only 1 piece of each type of clothing may be put on 
 4. To get clothing commands, all the commands with description starting with "Put on" are considered.
 
-
 ## Project Structure:
 ## Dressing.Business:
 	1. To add a new temperature type (e.g. MODERATE):
